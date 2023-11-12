@@ -1,0 +1,113 @@
+body{
+    font-family: 'poppins',sans-serif;
+}
+h1{
+font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+
+section{
+    display:flex;
+    padding:5%;
+}
+.flexble-container{
+    display:flex;
+    padding:5%;
+}
+.half-width{
+    width: 50%;
+}
+.myskill-head{
+    /*margin:auto;*/
+    /*padding: 0 20%;*/
+    /*position: relative;*/
+    bottom:15vh;
+   /* justify-content:center;
+    align-items:center;*/
+    /*height:200px;*/
+}
+/*.image-container{
+    width:200px;
+    height:100px;
+    text-align:top;
+}*/
+.img1{
+    width: 50%;
+    border-radius: 50%;
+   /* position:absolute;
+    top:0;*/
+    vertical-align:top;
+}
+.img2{
+    width: 40%;
+    border-radius: 70%;
+   /* position:absolute;
+    top:0;*/
+    vertical-align:top;
+}
+.link{
+    text-decoration: none;
+    padding:10px 50px;
+    border-radius: 10px;
+    background-image:linear-gradient(blue, rgb(132, 27, 132)) ;
+    color:white;
+    font-weight: 700;
+}
+/* .dp-bg{
+   border-radius:39% 61% 47% 53% / 36% 52% 48% 64% ;
+   background-color: grey;
+   width: 80%;
+   height:90%;
+} */
+.parent{
+    display: flex;
+    padding:0 10%;
+}
+.child{
+    box-shadow: 10px 5px 30px black;
+    margin:2%;
+    padding:50px;
+    border-radius:0 20px 50px 0 ;
+    border-left: 5px solid;
+    border-image: linear-gradient(blue, cyan)0 100%;
+}
+footer{
+    text-align: center;
+}
+*
+{
+    padding:0;
+    margin:0;
+}
+#navber{
+    background-color:rgb(77, 77, 243);
+    height:60px;
+}
+#logo{
+ color:white;
+ font-size:25px ;
+}
+a{
+    margin-right:170px;
+    color:white;
+}
+/*button{
+   background-color:chocolate;
+}*/
+/*#About{
+    text-decoration: underline;
+}*/
+/*#Skills{
+    text-decoration: underline;
+}
+#Services{
+    text-decoration: underline;
+}
+#Contect{
+    text-decoration: underline;
+}*/
+p{
+    text-decoration: none;
+}
